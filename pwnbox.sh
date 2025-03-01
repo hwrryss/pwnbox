@@ -2,7 +2,6 @@
 
 filename="$1"
 
-contname=$(echo "$filename" | tr "/" "-" | tr -d ".")
 sanename=$(echo "$filename" | rev | cut -d'/' -f 1 | rev)
 
 if [ "$#" -lt 1 ]; then
