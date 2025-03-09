@@ -23,6 +23,9 @@ RUN apt-get install \
     build-essential \
     zsh \
     patchelf \
+    xxd \
+    vim \
+    nano \
     -y --fix-missing&& \
     rm -rf /var/lib/apt/list/*
 
